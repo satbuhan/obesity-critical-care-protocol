@@ -151,6 +151,8 @@ a { color: var(--accent); }
 /* node base — a boxed figure on the page, not a UI card */
 .node {
   all: unset;
+  position: relative;
+  z-index: 1;
   box-sizing: border-box;
   cursor: pointer;
   display: flex;
