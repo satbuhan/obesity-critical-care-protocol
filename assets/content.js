@@ -325,3 +325,21 @@ const GLOSSARY = [
   { match: "train-of-four", def: "A nerve-stimulator monitoring pattern used to titrate ongoing neuromuscular blocker infusions to a measured depth of paralysis, rather than to a fixed infusion rate." },
   { match: "anti-factor Xa", def: "A blood test measuring the activity of low-molecular-weight heparin, used to confirm that a thromboprophylaxis dose is actually achieving a prophylactic level rather than assuming it from the dose alone." }
 ];
+
+// Clinical agent (drug) names to visually emphasise wherever they appear —
+// in the diagram boxes themselves and in the readout panel's prose. This
+// is a rendering-only concern (app.js wraps each match in a styled span at
+// render time); it never touches label/sub, which stay byte-exact as
+// authored. Matching is case-insensitive and whole-word, longest name
+// first.
+// Added at Dr. Özgür Karcıoğlu's request, 2026-11-02 — see METHODOLOGY.md.
+const AGENTS = [
+  "Propofol",
+  "Succinylcholine",
+  "Suxamethonium",
+  "Rocuronium",
+  "Sugammadex",
+  "Enoxaparin",
+  "Heparin",
+  "Thiamine"
+];
