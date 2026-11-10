@@ -12,6 +12,8 @@ place: what the step means, why the review calls for it, the certainty
 
 **Authors:** Dr. Özgür Karcıoğlu & Dr. Satuk Buğra Han Bozatlı
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24112552.svg)](https://doi.org/10.5281/zenodo.24112552)
+
 This tool is part of a growing atlas of tools built the same way:
 
 - [Clinical Algorithm Atlas](https://satbuhan.github.io/clinical-algorithm-atlas/) — the hub page for all of them
